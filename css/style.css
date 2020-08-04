@@ -97,6 +97,10 @@
     padding-bottom: 1.2rem;
 }
 
+footer.footer {
+    padding-top: 1rem;
+}
+
 .background-blue {
     background-color: rgb(189, 222, 237);
 }
@@ -108,11 +112,22 @@
     display: none;
 }
 
+.robot-arm {
+    padding-top: 0.5rem;
+}
+
 @media screen and (max-width: 768px) {
     #content-desktop {
         display: none;
     }
     #content-mobile {
         display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .robot-arm {
+        padding-top: 0.2rem;
+        width: 70%;
     }
 }
